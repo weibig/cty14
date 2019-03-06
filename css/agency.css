@@ -6,7 +6,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'STSong', 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 p {
@@ -52,7 +52,7 @@ section h3.section-subheading {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family:  'STSong','Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 @media (min-width: 768px) {
@@ -416,7 +416,7 @@ header.masthead .intro-text .intro-heading {
   float: right;
   width: 100%;
   padding: 0 20px 0 100px;
-  text-align: left;
+  text-align: center;
 }
 
 .timeline > li .timeline-panel:before {
@@ -489,6 +489,7 @@ header.masthead .intro-text .intro-heading {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+  
 }
 
 @media (min-width: 768px) {
@@ -587,8 +588,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-color: #4a5494;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -645,7 +645,7 @@ section#contact :-ms-input-placeholder {
 }
 
 footer {
-  padding: 25px 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -666,6 +666,7 @@ footer ul.quicklinks {
 
 ul.social-buttons {
   margin-bottom: 0;
+  padding: 12px;
 }
 
 ul.social-buttons li a {
@@ -679,11 +680,17 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #6c757d;
+
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #C0CEEA;
 }
 
+
+vital { 
+  font-weight: 500;
+  font-family:  'STSong','Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
 
