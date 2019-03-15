@@ -12,6 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/aos.css" />
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -29,20 +30,31 @@
 </head>
 
 <body id="page-top">
+  <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+
+            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+            </div>
+
+        </div>
+    </div>
+  <!-- ./Preloader -->
+
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
+    <div class="container" data-stellar-background-ratio="0.5">
       
         <img class="navbar-brand js-scroll-trigger"style="max-width: 10%; height: auto; display: inline" src="img/logo.png" >
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
+      <div class="collapse navbar-collapse bigger" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto" data-aos="fade-down" data-aos-easing="ease-in-back">
         
-          <li class="nav-item">
+          <li class="nav-item " >
             <a class="nav-link js-scroll-trigger" href="#about">關於我們</a>
           </li>
           <li class="nav-item">
@@ -74,7 +86,7 @@
     <div class="container">
       <div class="intro-text">
         
-        <button id="button1" >立即報名</a>
+        <button id="button1" data-aos="fade-up">立即報名</button>
       </div>
     </div>
   </header>
@@ -84,15 +96,15 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">關於我們</h2>
+          <h2 class="section-heading text-uppercase" >關於我們</h2>
           <h3 class="section-subheading text-muted">About Us</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 col-sm-12">
-          
+        
         </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-delay="0">
           <h2 class="timeline-heading">主題意義</h4>
           <p class="timeline-body text-muted">第十四屆玉山青年菁英論壇CTY14的主題為「初綻」，為花朵開始綻放之意。無論對於創業的接觸與認知或深或淺，希望學員皆能透過營期間的各項活動與課程，培養創業的思維與技能，在這一塊領域勇於突破、革新，並透過創投競賽體驗創業過程中的酸、甜、苦、辣，在過程中和夥伴共同合作，彼此激盪想法。在營期間勇敢嘗試、綻放自我，發現不同面貌的自己，加速自己與團隊的成長，同時期待營期後學員們能醞釀出更多對創業的想法。</p>
           <br>
@@ -113,7 +125,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-delay="0">
 
         <!-- 1.創投諮詢 -->
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -408,8 +420,8 @@
           <ul class="timeline">
 
             <!-- 1.商業模式 -->
-            <li>
-              <div class="timeline-image">
+            <li data-aos="fade-right" data-aos-delay="0">
+              <div class="timeline-image" >
                 <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
               </div>
               <div class="timeline-panel">
@@ -424,8 +436,8 @@
             </li>
 
             <!-- 2.簡報 -->
-            <li class="timeline-inverted">
-              <div class="timeline-image">
+            <li class="timeline-inverted" data-aos="fade-left" data-aos-delay="0">
+              <div class="timeline-image" >
                 <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
               </div>
               <div class="timeline-panel">
@@ -440,8 +452,8 @@
             </li>
 
             <!-- 3.數位行銷 -->
-            <li>
-              <div class="timeline-image">
+            <li data-aos="fade-right" data-aos-delay="0">
+              <div class="timeline-image" >
                 <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
               </div>
               <div class="timeline-panel">
@@ -456,7 +468,7 @@
             </li>
 
             <!-- 4.籌資力 -->
-            <li class="timeline-inverted">
+            <li class="timeline-inverted" data-aos="fade-left" data-aos-delay="0">
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
               </div>
@@ -472,8 +484,8 @@
             </li>
 
             <!-- 5.設計思考 -->
-            <li>
-              <div class="timeline-image">
+            <li data-aos="fade-right" data-aos-delay="0">
+              <div class="timeline-image" >
                 <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
               </div>
               <div class="timeline-panel">
@@ -487,7 +499,7 @@
               </div>
             </li>
 
-            <li class="timeline-inverted">
+            <li class="timeline-inverted" data-aos="zoom-in">
               <div class="timeline-image">
                 <h4>Ready For
                   <br>The Final
@@ -512,7 +524,7 @@
       </div>
 
       <!-- row1 -->
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-delay="0">
 
         <!-- 1 -->
         <div class="col-sm-3">
@@ -553,7 +565,7 @@
       </div>
 
       <!-- row2 -->
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-delay="0">
 
         <!-- 5 -->
         <div class="col-sm-3">
@@ -594,7 +606,7 @@
       </div>
 
       <!-- row3 -->
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-delay="0">
 
         <!-- 9 -->
         <div class="col-sm-3">
@@ -636,7 +648,7 @@
 
 
       <!-- row4 -->
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-delay="0">
 
         <!-- 13 -->
         <div class="col-sm-3">
@@ -678,7 +690,7 @@
 
 
       <!-- 總結 -->
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-delay="0">
         <div class="col-lg-8 mx-auto text-center">
           <p class="large text-muted" style = "font-style: italic" >Alone we can do so little, together we can do so much.</p>
         </div>
@@ -695,7 +707,7 @@
           <h3 class="section-subheading text-muted">Internship Program</h3>
         </div>
       </div>
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-delay="0">
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#internModal1">
             <div class="portfolio-hover">
@@ -968,7 +980,7 @@
 
       <!-- 玉山科協 -->
       <div class="row">
-        <div class="col-md-6 col-sm-4 portfolio-item">
+        <div class="col-md-6 col-sm-4 portfolio-item" data-aos="fade-right" data-aos-delay="0">
           <a class="portfolio-link" data-toggle="modal" href="#communityModal1">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -984,7 +996,7 @@
         </div>
 
         <!-- 小玉山 -->
-        <div class="col-md-6 col-sm-4 portfolio-item">
+        <div class="col-md-6 col-sm-4 portfolio-item" data-aos="fade-left" data-aos-delay="0">
           <a class="portfolio-link" data-toggle="modal" href="#communityModal2">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -1017,7 +1029,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
+              <div class="modal-body" >
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">玉山科技協會</h2>
                 <p class="item-intro text-muted">Monte Jade Science & Technology Association of Taiwan</p>
@@ -1132,6 +1144,14 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+      AOS.init({
+        offset: 100,
+        duration: 600,
+        easing: 'ease-in-out-sine'
+      });
+    </script>
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
