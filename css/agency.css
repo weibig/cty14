@@ -707,16 +707,18 @@ vital {
 #button1 {
   background: transparent;
   border: 3px solid #C0CEEA;
-  margin: 30px auto 0;
+  margin: 30px auto;
+  width: 10%;
+  margin-left: 35%;
+  margin-right: 55%;
   display: block;
   font-size: 25px;
   outline: none;
   position: absolute;
   transition: 0.3s;
-  padding: 5px;
+  padding: 10px;
   color:  #4a5494;
   top: 80%;
-  left: 43%;
   font-weight: bold;
   font-family: 'STSong', 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
