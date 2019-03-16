@@ -177,13 +177,14 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   min-height: 100vh;
 }
 
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
+
 
 }
 
@@ -316,7 +317,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content {
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
 }
 
@@ -712,7 +713,7 @@ vital {
   margin-left: 35%;
   margin-right: 55%;
   display: block;
-  font-size: 25px;
+  font-size: 1.8vw;
   outline: none;
   position: absolute;
   transition: 0.3s;
