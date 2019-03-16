@@ -177,8 +177,10 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
+  padding: 1vw;
   min-height: 100vh;
+  margin:1vw;
 }
 
 header.masthead .intro-text {
@@ -707,17 +709,16 @@ vital {
 
 #button1 {
   background: transparent;
-  border: 0.4vw solid #C0CEEA;
+  border: 3px solid #C0CEEA;
   margin: 30px auto;
-  width: 20vw;
-  margin-left: 30vw;
-  margin-right: 50vw;
+  margin-left: 30%;
+
   display: block;
-  font-size: 2.5vw;
+  font-size: 35px;
   outline: none;
   position: absolute;
   transition: 0.3s;
-  padding: 0.4vw;
+  padding: 10px;
   color:  #4a5494;
   top: 80%;
   font-weight: bold;
