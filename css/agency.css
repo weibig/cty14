@@ -23,6 +23,7 @@ a {
 
 a:hover {
   color: #4a5494 ;
+  text-decoration: none;
 }
 
 .text-primary {
@@ -178,9 +179,8 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  padding: 1vw;
   min-height: 100vh;
-  margin:1vw;
+  margin:0vw 0vw 0vw 1vw;
 }
 
 header.masthead .intro-text {
@@ -703,6 +703,7 @@ vital {
   font-weight: 500;
   font-family:  'STSong','Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
 
 
 
