@@ -174,13 +174,13 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/2.png");
+  background-image: url("../img/3.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   min-height: 100vh;
-  margin:0vw 0vw 0vw 1vw;
+  margin:0vw 0vw 0vw 0vw;
 }
 
 header.masthead .intro-text {
@@ -205,6 +205,10 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 25px;
   font-family:   'FZYaoti';
 }
+
+
+
+
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -505,6 +509,11 @@ header.masthead .intro-text .intro-heading {
   
 }
 
+
+
+
+
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -715,7 +724,9 @@ vital {
   background: transparent;
   border: 3px solid #C0CEEA;
   margin: 30px auto;
-  margin-left: 30%;
+
+  left:50%;
+  transform: translateX(-59%);
 
   display: block;
   font-size: 35px;
@@ -745,5 +756,12 @@ vital {
   font-size: 1.1rem;
 }
 
+.logo1 {
+display: block;
+margin-top: 18px;
+margin-bottom: 18px;
 
+height: 80px;
+max-width: 85%;
+}
 
