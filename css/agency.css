@@ -554,6 +554,9 @@ header.masthead .intro-text .intro-heading {
     padding: 0 30px 20px 20px;
     text-align: left;
   }
+  .agenda{
+    width: 45vw;
+  }
 }
 
 @media (min-width: 992px) {
@@ -576,6 +579,9 @@ header.masthead .intro-text .intro-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
+  .agenda{
+    width: 45vw;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -595,6 +601,9 @@ header.masthead .intro-text .intro-heading {
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
+  }
+  .agenda{
+    height: 90vh;
   }
 }
 
