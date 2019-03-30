@@ -181,6 +181,7 @@ header.masthead {
   background-size: contain;
   min-height: 100vh;
   margin:0vw 0vw 0vw 0vw;
+  animation: 
 }
 
 header.masthead .intro-text {
@@ -291,9 +292,18 @@ header.masthead .intro-text .intro-heading {
   background-color: #fff;
 }
 
+
+
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
+
+}
+
+.change-caption{
+  padding: 8px;
+  text-align: center;
+  color: #6c757d;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -433,7 +443,7 @@ header.masthead .intro-text .intro-heading {
   float: right;
   width: 100%;
   padding: 0 20px 0 100px;
-  text-align: center;
+  
 }
 
 .timeline > li .timeline-panel:before {
@@ -896,3 +906,55 @@ max-width: 85%;
   transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
   transform-origin: left;
 }
+
+
+/*snow*/
+.winter-is-coming, .snow {
+  z-index: 100;
+  pointer-events: none;
+}
+
+.snow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: falling linear infinite both;
+  transform: translate3D(0, -100%, 0);
+}
+.snow--near {
+  animation-duration: 15s;
+  background-image: url('../img/flowers~~~-min.png');
+  background-size: contain;
+}
+.snow--near + .snow--alt {
+  animation-delay: 3s;
+}
+.snow--mid {
+  animation-duration: 35s;
+  background-image: url('../img/flowers~~~-min.png');
+  background-size: contain;
+}
+.snow--mid + .snow--alt {
+  animation-delay: 25s;
+}
+.snow--far {
+  animation-duration: 45s;
+  background-image: url('../img/flowers~~~-min.png');
+  background-size: contain;
+}
+.snow--far + .snow--alt {
+  animation-delay: 20s;
+}
+@keyframes falling {
+  0% {
+    transform: translate3D(-7.5%, -100%, 0);
+  }
+  100% {
+    transform: translate3D(7.5%, 100%, 0);
+  }
+}
+
+
+
