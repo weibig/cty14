@@ -44,6 +44,7 @@ section {
   padding: 100px 0;
 }
 
+
 section h2.section-heading {
   color: #4a5494;
   font-size: 40px;
@@ -185,7 +186,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
+  
   padding-bottom: 100px;
 
 
@@ -915,5 +916,9 @@ max-width: 85%;
   transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
   transform-origin: left;
 }
+.twobutton{
+  top: 60%;
+  position: absolute;
 
+}
 
