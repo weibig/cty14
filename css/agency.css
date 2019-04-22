@@ -186,8 +186,12 @@ header.masthead {
 }
 
 header.masthead .intro-text {
+  padding-top: 60vh;
   
-  padding-bottom: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 
 
 }
@@ -213,10 +217,7 @@ header.masthead .intro-text .intro-heading {
 
 
 @media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
+  
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
@@ -817,21 +818,18 @@ max-width: 85%;
 
 /*立即報名icon*/
 .portfolio-experiment a {
-  padding-bottom: 16px;
-  padding-top: 16px;
-  padding-left: 10px;
-  padding-right: 10px;
 
-  display: inline-block;
-  border: 3px solid transparent;
-  font-size: 33px;
-  cursor: pointer;
-  left:50%;
-  transform: translateX(-52%);
-  top: 80%;
-  font-weight: bold;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  position: absolute;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    /*padding-left: 100px;*/
+    /*padding-right: 100px;*/
+    display: inline-block;
+    border: 3px solid transparent;
+    font-size: 33px;
+    cursor: pointer;
+    position: : 90%;
+    font-weight: bold;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 .portfolio-experiment a .text {
   transform: translate3d(0, 0.7em, 0);
@@ -915,10 +913,5 @@ max-width: 85%;
 .portfolio-experiment a:hover .line.-bottom, .portfolio-experiment a:active .line.-bottom {
   transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
   transform-origin: left;
-}
-.twobutton{
-  top: 60%;
-  position: absolute;
-
 }
 
